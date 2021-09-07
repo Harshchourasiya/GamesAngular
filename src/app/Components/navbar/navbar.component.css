@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+#container{
+    display: flex;
+    background-color: #000000;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+}
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+.spaceEvenly{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFF;
+    align-items: center;
+}
+
+.spaceEvenly p a {
+    text-decoration: none;
+    background-color: #FFF;
+    color: #000000;
+    padding: 5px 10px 5px 10px;
+    transition: all .5s;
+    border-radius: 3px;
+    border: 1px solid #000000;
+}
+
+.spaceEvenly p a:hover{
+    background-color: #000000;
+    color: #FFF;
+    border-color: #FFF;
+}
+
+.spaceEvenly input{
+    height: 30px;
+    border: none;
+    width: 70%;
+    border-radius: 10px;
+    
+}
+.spaceEvenly input:focus{
+    outline-color:#FFF;
+    border-radius: 0px;
+}
+.spaceEvenly button{
+    background-color: #FFF;
+    color: #000000;
+    padding: 5px 10px 5px 10px;
+    transition: all .5s;
+    border-radius: 3px;
+    border: 1px solid #000000;
+}
+.spaceEvenly button:hover{
+    background-color: #000000;
+    color: #FFF;
+    border-color: #FFF;
+}
+
+@media (max-width:700px){
+    #container{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .spaceEvenly{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}

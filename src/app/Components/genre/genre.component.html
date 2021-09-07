@@ -1,0 +1,13 @@
+<div id="container">
+
+    
+    <h1>{{name}}</h1>
+    <div  style="display:flex; flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: center;">
+        <div *ngFor="let game of games">
+            <app-plate [game] ="game"></app-plate>
+        </div>
+    </div>
+    
+    <button (click) = "onNextButton()">Next</button>
+
+</div>

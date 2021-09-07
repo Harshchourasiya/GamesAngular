@@ -1,0 +1,19 @@
+.plateContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 15px 5px 15px;
+    cursor: pointer;
+}
+
+.plateContainer img{
+    width: 120px;
+    height: 150px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.plateContainer h4{
+    text-align: center;
+    width: 110px;
+    text-overflow: clip;
+}

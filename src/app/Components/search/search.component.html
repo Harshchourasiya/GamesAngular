@@ -1,0 +1,9 @@
+<div id="container">
+    
+    <h1>{{qurey}}</h1>
+    <div class="subContainer" >
+        <div *ngFor="let data of game">
+            <app-plate [game]=data></app-plate>
+        </div>
+    </div>
+</div>

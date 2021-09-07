@@ -1,0 +1,17 @@
+<div class="container">
+
+    <div style="display: flex; justify-content: space-between;">
+        <h2>
+            {{game.name}}
+        </h2>
+        <button (click)="onClick()">
+            More
+        </button>
+    </div>
+    <div class="subContainer" >
+        <div *ngFor="let data of game.games">
+            <app-plate [game]=data></app-plate>
+        </div>
+    </div>
+    
+</div>

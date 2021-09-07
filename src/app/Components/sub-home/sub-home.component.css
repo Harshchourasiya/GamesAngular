@@ -1,0 +1,29 @@
+.subContainer{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-left: auto;
+}
+.container{
+    justify-content: center;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.subContainer::-webkit-scrollbar{
+    display: none;
+}
+
+button{
+    margin: 15px 0px 15px 0px;
+    padding: 0px 15px 0px 15px;
+    border: none;
+    transition: all .5s;
+    border-radius: 5px;
+}
+button:hover{
+   background-color: black;
+   color: white;
+   border: 1px solid white;
+   
+}
