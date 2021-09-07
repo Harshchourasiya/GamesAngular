@@ -1,6 +1,6 @@
 # Games
+This is the Game Website for Game lover like me where You can Like game and find your next favorite Game. This website developed with Angular.js [Angular CLI](https://github.com/angular/angular-cli) version 12.2.3 and RAWG Video game API. Visit website now [GameAngular](https://gamesangular.netlify.app/).![Screenshot (2)](https://user-images.githubusercontent.com/48551992/132294451-a9b5289c-a618-43b9-8a92-3e25d70fbb2c.png)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.3.
 
 ## Development server
 
